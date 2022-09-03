@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "dependencies": {
+    "16": "^0.0.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "nodemailer": "^6.7.7",
+    "uuid": "^8.3.2",
+    "winston": "^3.8.1"
+  },
+  "name": "todobackend",
+  "version": "1.0.0",
+  "description": "it is description",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Olexii Ponomarenko",
+  "license": "ISC"
+}
