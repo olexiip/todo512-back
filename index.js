@@ -17,7 +17,7 @@ const router = express.Router();
 const app = express();
 const __dirname = path.resolve();
 console.log("HW!");
-const PORT = process.env.MY_PORT?? 3001;
+const PORT = process.env.PORT?? 3001;
 const DB_CON = process.env.DB_CON;
 app.use(cors());
 app.use(cookieParser());
@@ -40,6 +40,7 @@ app.listen(PORT, async ()=> {
     try {
         await mongoose.connect(DB_CON);
         console.log("DB ok")
+        console.log(`PORT : ${process.env.PORT}`);
         console.log(`MY_PORT : ${process.env.MY_PORT}`);
         console.log(`DB_CON : ${process.env.DB_CON}`);
         console.log(`JWT_S : ${process.env.JWT_S}`);
