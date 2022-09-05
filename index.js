@@ -40,18 +40,6 @@ app.listen(PORT, async ()=> {
     try {
         await mongoose.connect(DB_CON);
         console.log("DB ok")
-        console.log(`PORT : ${process.env.PORT}`);
-        console.log(`MY_PORT : ${process.env.MY_PORT}`);
-        console.log(`DB_CON : ${process.env.DB_CON}`);
-        console.log(`JWT_S : ${process.env.JWT_S}`);
-        console.log(`JWT_R_S : ${process.env.JWT_R_S}`);
-        console.log(`URL : ${process.env.URL}`);
-        console.log(`SMTP_HOST : ${process.env.SMTP_HOST}`);
-        console.log(`SMTP_PORT : ${process.env.SMTP_PORT}`);
-        console.log(`SMTP_USER : ${process.env.SMTP_USER}`);
-        console.log(`SMTP_PASS : ${process.env.SMTP_PASS}`);
-        console.log(`FRONT : ${process.env.FRONT}`);
-
     } catch (e) {
         console.log(e);
     }
