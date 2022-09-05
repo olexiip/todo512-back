@@ -1,5 +1,5 @@
 import express from "express";
-import adminTodoController from "../controllers/AdminController.js";
+import adminTodoController from "../controllers/adminController.js";
 import adminAuthMiddlewares from "../middlewares/AdminAuthMiddlewares.js";
 
 const apiAdminRoutes = express.Router();
