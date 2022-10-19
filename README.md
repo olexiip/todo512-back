@@ -11,13 +11,13 @@ Project need .env file with foloving data:
 ```
 MY_PORT=3001   
 DB_CON=mongoDB connection string 
-JWT_S=pass
-JWT_R_S=enother pass        
+JWT_S=password
+JWT_R_S=enother password        
 URL=localhost:3001          
 SMTP_HOST=smtp.gmail.com    
 SMTP_PORT=587
 SMTP_USER=mail
-SMTP_PASS=pass
+SMTP_PASS=password
 FRONT=localhost:3001        
 ```
  <br>
